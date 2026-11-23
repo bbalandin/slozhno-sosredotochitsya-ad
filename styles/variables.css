@@ -1,4 +1,13 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  color-scheme: dark;
+  --canvas: #000028;
+  --cover: url("../images/cover-image-dark.png");
+  --ink: #f1b2ce;
+  --accent-color: #ff0070;
+  --controls: #ff0070;
+  --on-accent: #000028;
+  --poster: #db00ff;
+  --rec-display: flex;
+  --edge: 10px;
+  --poster-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+}
