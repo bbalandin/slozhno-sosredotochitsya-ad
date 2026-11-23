@@ -221,11 +221,25 @@
       "tape   street street";
   }
 
-  .gallery__sunset { grid-area: sunset; }
-  .gallery__ice-cream { grid-area: ice; }
-  .gallery__tape { grid-area: tape; }
-  .gallery__books { grid-area: books; }
-  .gallery__street { grid-area: street; }
+  .gallery__sunset {
+    grid-area: sunset;
+  }
+
+  .gallery__ice-cream {
+    grid-area: ice;
+  }
+
+  .gallery__tape {
+    grid-area: tape;
+  }
+
+  .gallery__books {
+    grid-area: books;
+  }
+
+  .gallery__street {
+    grid-area: street;
+  }
 
   .gallery__pictures img {
     block-size: 100%;
